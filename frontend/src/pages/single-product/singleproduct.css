@@ -1,0 +1,49 @@
+.single-product {
+  padding:  30px;
+  
+}
+
+.product-wrabber {
+display: flex;
+}
+
+.product-img-wrabber {
+width: 48%;
+
+
+}
+
+.product-img-wrabber img{
+max-width: 350px;
+object-fit: contain;
+  
+  }
+
+.product-info {
+  width: 48%;
+}
+
+
+@media (max-width: 800px) {
+  .product-wrabber {
+flex-direction: column;
+    }
+
+    .product-img-wrabber {
+      width: 96%;
+      
+      }
+      
+      .product-info {
+        width: 96%;
+      }
+
+
+      .single-product {
+        padding:  15px;
+        
+      }
+      
+
+
+}

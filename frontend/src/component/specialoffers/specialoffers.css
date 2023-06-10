@@ -1,0 +1,159 @@
+.specialOffers {
+  padding: 10px 30px;
+
+}
+
+.special-offers-title {
+  font-size: 21px;
+  color: var(--primary-color);
+  margin-bottom: 15px;
+}
+
+.special-offers-icon-wrabber {
+  color: var(--strong-red-color);
+  margin-right: 10px;
+}
+
+.special-offers-icon-wrabber i {
+margin-left: 5px;
+}
+
+.special-offers-wrabber {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.offer {
+  display: flex;
+  width: 49%;
+  height: 300px;
+  align-items: center;
+  justify-content: space-around;
+  background-color: var(--white-color);
+  margin-bottom: 25px;
+  border-radius: 10px;
+  padding: 5px;
+  position: relative;
+
+}
+
+
+.offer-image-wrabber {
+  width: 40%;
+  height: 100%;
+}
+
+.offer-img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
+
+.offer-info {
+  padding: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-direction: column;
+  width: 60%;
+}
+
+.offer-title {
+  color: var(--primary-color);
+  font-size: 20px;
+  margin: 15px 0;
+}
+
+.offer-price {
+  margin: 10px 0;
+}
+
+.offer-price-item {
+  margin-right: 10px;
+  font-size: 20px;
+  text-decoration: line-through;
+  color: var(--strong-red-color);
+}
+
+.offer-final-price-item {
+  font-size: 20px;
+  color: var(--primary-color);
+}
+
+.offer-see-more {
+  font-size: 20px;
+  font-weight: 500;
+  color: var(--white-color);
+  width: 160px;
+  height: 49px;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 2px 15px;
+  padding: 7px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.offer-discount {
+  position: absolute;
+  background-color: var(--info-color);
+  color: var(--white-color);
+  width: 120px;
+  height: 48px;
+  padding:0 10px;
+  border-radius: 50px;
+  top: 10px;
+  left: 13px;
+  font-size: 20px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
+
+
+@media (max-width : 1200px) {
+.offer-title {
+  font-size: 17px;
+}
+}
+
+
+
+@media (max-width : 920px) {
+.offer {
+  width: 100%;
+}
+
+.offer-title {
+  font-size: 20px;
+}
+  }
+  
+
+
+  @media (max-width : 580px) {
+    .specialOffers {
+      padding: 10px 15px;
+    
+    }
+    
+    .offer-title {
+      font-size: 17px;
+    }
+
+ .offer-discount {
+  font-size: 14px;
+  width: 77px;
+  height: 24px;
+  padding: 0 5px;
+  top: 8px;
+  left: 9px;
+ }
+
+      }
+      

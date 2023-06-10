@@ -1,0 +1,19 @@
+
+.rating-wrabber {
+  margin: 5px 0;
+}
+
+.rating {
+  background-color: var(--success-color);
+  color: var(--white-color);
+  padding:0 5px;
+  border-radius: 7px;
+  margin-left: 7px;
+}
+
+.rating-wrabber span{
+color: var(--info-color);
+font-weight: 600;
+}
+ 
+
